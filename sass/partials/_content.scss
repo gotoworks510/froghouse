@@ -1,0 +1,296 @@
+/* ==========================================================================
+Content
+========================================================================== */
+
+section{
+	.box{
+		h2{
+			font-family: "myriad-pro-condensed";
+			font-size: x-large;
+			border-bottom: 1px solid #c8c8c8;
+			padding: 3% 0;
+		}
+		p{
+			border-bottom: 1px solid #636363;
+			padding: 3% 0;
+			font-size: small;
+		}
+		img{
+			width: 100%;
+		}
+	}
+	h1{
+		font-family: "myriad-pro";
+		font-size: xx-large;
+		line-height: 1.5em;
+		padding:7% 0 2%;
+		@media (max-width: 640px) {
+			font-size: x-large;
+		}
+	}
+	p{
+		line-height: 1.6em;
+		margin-bottom: 1.5%;
+		@media (max-width: 640px) {
+			font-size: small;
+		}
+	}
+	&:first-child{
+		h1{
+			padding-top: 0;
+		}
+	}
+}
+
+#maincontents{
+	#working{
+		margin-right: -3%;
+		overflow: hidden;
+		.box{
+			width: 47%;
+			float: left;
+			margin-right: 3%;
+			margin-top: 1%;
+			margin-bottom: 3%;
+		}
+	}
+}
+
+#sidecontents{
+	.box{
+		margin-bottom: 6%;
+	}
+	.sns{
+		border-bottom: 1px solid #636363;
+		padding-bottom: 6%;
+		overflow: hidden;
+		svg{
+			width: 30%;
+			float: left;
+		}
+		span{
+			width: 65%;
+			float: right;
+			margin-top: -1%;
+			line-height: 1.7;
+		}
+	}
+}
+
+.sub{
+	section{
+		h1{
+			padding-top:4%;
+			@media (max-width: 640px) {
+				padding-top:8%;
+			}
+		}
+	}
+}
+
+#member{
+	.admin{
+		overflow: hidden;
+	}
+	.res{
+		overflow: hidden;
+	}
+	.thum{
+		width: 12%;
+		float: left;
+		margin: 0.5% 0 1.5%;
+		padding-right: 2%;
+		@media (max-width: 640px) {
+			width: 20%;
+			font-size:x-small;
+		}
+		img{
+			width: 100%;
+			height:auto;
+		}
+		span{
+			font-size: x-small;
+			padding: 4% 0;
+			display: block;
+			color:#555;
+			@media (max-width: 640px) {
+				font-size: 70%;
+				padding-bottom: 6%;
+			}
+		}
+	}
+}
+
+#access{
+	iframe{
+		margin-bottom: 3%;
+		@media (max-width: 640px) {
+			height:200px;
+		}
+	}
+}
+
+
+form {
+	h3{
+		margin-bottom: 0 !important;
+	}
+	label{
+		display: inline-block;
+	}
+	input,
+	textarea,
+	select,
+	input[type=search],
+	button {
+		font-size: 1rem;
+		font-family: inherit;
+	}
+	select,
+	textarea,
+	input[type=text],
+	input[type=password],
+	input[type=search],
+	input[type=email],
+	input[url] {
+		background: #fff;
+		border: 1px solid #ccc;
+		padding: 2% 2%;
+		@include border-radius();
+		-webkit-appearance: none;
+	}
+	input[type=text],
+	input[type=search],
+	input[type=email],
+	input[url] {
+		width: 90%;
+	}
+	.min input[type=text]{
+		width: 30%;
+	}
+	// text area
+	textarea {
+		width: 90%;
+		height: 220px;
+	}
+	// form button
+	input[type=reset], input[type=submit], button {
+		padding: 2% 5%;
+		border: none;
+		cursor: pointer;
+		-webkit-appearance: none;
+	}
+	// select
+	select {
+		width: 20%;
+		background: #fff url(img/arrowDown.png) no-repeat right 10px center;
+		-webkit-appearance: none;
+	    -moz-appearance: none;
+		cursor: pointer;
+	// remove a default arrow icon on Firefox
+	    text-indent: .01px;
+	    text-overflow: '';
+	}
+	.long select{
+		width: 50%;
+	}
+} // form
+
+#copy{
+	display: block;
+	font-size: x-small;
+	margin:auto;
+	text-align: center;
+	padding-bottom: 4%;
+}
+
+#wuf-adv{
+	margin-bottom: 1%;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0px 1px;
+    width: 100%;
+}
+
+table th {
+    padding: 2%;
+    vertical-align: middle;
+    text-align: left;
+    border-bottom: #ccc 1px solid;
+    width: 30%;
+    &.ttl{
+		background: #ccc;
+		margin-top: -2px;
+    }
+}
+
+table td {
+    padding: 2%;
+    vertical-align: middle;
+    text-align: left;
+    border-bottom: #ccc 1px solid;
+}
+
+
+
+/*
+
+TENANTS CSS SETTING
+
+ */
+
+#tenants .profile{
+	text-align: center;
+	margin:5% 0 10%;
+	padding: 4% 0 7%;
+	img{
+		@include border-radius(100%);
+		margin: 4% 0 3%;
+	}
+	h1{
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	ul{
+		li{
+			margin-top: 2%;
+			font-family: "myriad-pro-condensed";
+			h3{
+				display: inline;
+				color:#777;
+				margin-right: 2%;
+			}
+			span{
+				overflow: hidden;
+				color: #555;
+				font-size: medium;
+			}
+		}
+	}
+}
+
+#tenantsDetails{
+	margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

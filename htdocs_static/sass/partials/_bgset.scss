@@ -1,0 +1,22 @@
+/* ==========================================================================
+Background Setting
+========================================================================== */
+
+body{
+	background: url(../img/bg.jpg) repeat;
+}
+
+#wrap{
+	background: url(../img/header.png) top no-repeat;
+	background-position: 0 25px;
+	background-size:100% auto;
+}
+
+#footerImg{
+	background: url(../img/footer.png) bottom repeat-x;
+	padding-bottom: 10%;
+	@media (max-width: 640px) {
+		padding-bottom: 20%;
+		background-size: contain;
+	}
+}
