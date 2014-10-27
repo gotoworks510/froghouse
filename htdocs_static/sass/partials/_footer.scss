@@ -1,0 +1,16 @@
+/* ==========================================================================
+Footer
+========================================================================== */
+
+#footer{
+	text-align: center;
+	padding: 2% 0 2.5%;
+	font-size: small;
+	font-weight: bold;
+	text-shadow: 2px 2px 0px #0b78a0;
+	color: #fff;
+	background: #0094CA;
+	@media (max-width: 640px) {
+		font-size: x-small;
+	}
+}

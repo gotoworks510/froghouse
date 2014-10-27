@@ -1,0 +1,175 @@
+/* ==========================================================================
+Header
+========================================================================== */
+
+#header{
+	position: relative;
+	h1{
+		display: block;
+		img{
+			width: 47%;
+			position: absolute;
+			margin-top: 5%;
+			right:19.2%;
+			@media (max-width: 800px) {
+				margin-top: 6%;
+				right:19.5%;
+			}
+			@media (max-width: 640px) {
+				margin-top: 11%;
+			}
+			@media screen and (max-device-width: 640px) and (orientation: landscape){
+				margin-top: 7%;
+			}
+		}
+	}
+}
+
+#navigation{
+	margin-top: 45%;
+	@media (max-width: 640px) {
+		margin-top: 55%;
+	}
+	nav{
+		ul{
+			display: block;
+			overflow: hidden;
+			margin-right: -5%;
+			li{
+				float: left;
+				@media (max-width: 640px) {
+					width: 20%;
+				}
+				a{
+					display: block;
+					color: #fff;
+					overflow: hidden;
+					position: relative;
+					@include border-radius(10px);
+					margin-right: 10px;
+					@media (max-width: 800px) {
+						text-align: center;
+					}
+					@media (max-width: 640px) {
+						height: 45px;
+						width: 80%;
+						text-align: center;
+					}
+					span{
+						padding: 15px;
+						display: inline-block;
+						float: right;
+						margin-left: 25px;
+						@media (max-width: 640px) {
+							text-indent: -9999px;
+							margin: 0;
+						}
+					}
+					&:before{
+						font-size: large;
+						margin:0 6px 0 0;
+						display: inline-block;
+						position: absolute;
+						top:13px;
+						left: 14px;
+						@media (max-width: 640px) {
+							font-size: x-large !important;
+							top: 10px;
+							left: auto;
+							position: relative;
+						}
+					}
+					&.gn1{
+						background: #cf5558;
+						width: 80%;
+						height: 45px;
+						text-align: center;
+						span{
+							text-indent: -9999px;
+							margin: 0;
+							@media (max-width: 640px) {
+								display: none;
+							}
+						}
+						&:before{
+							font-size: 170%;
+							content: "\e601";
+							margin-right: 0;
+							top:10px;
+							left: auto;
+							position: relative;
+						}
+					}
+					&.gn2{
+						background: #c1ca57;
+						&:before{
+							content: "\e602";
+						}
+					}
+					&.gn3{
+						background: #58be79;
+						&:before{
+							content: "\e605";
+						}
+					}
+					&.gn4{
+						background: #dbb782;
+						&:before{
+							content: "\e604";
+						}
+					}
+					&.gn5{
+						background: #c22026;
+						&:before{
+							content: "\e603";
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#member_sec{
+	background: $color-bgw;
+	margin: 2%;
+	padding: 0 3%;
+	@media (max-width: 640px) {
+			padding: 3%;
+		}
+	dl{
+		float: left;
+		width:20%;
+		text-align: center;
+		padding: 2%;
+		dt{
+			img{
+				width: 90%;
+				margin-bottom: 10px;
+				@media (max-width: 640px) {
+					margin-bottom: 0px;
+				}
+			}
+		}
+		dd{
+			a{
+				font-size: large;
+				@media (max-width: 640px) {
+					font-size: small;
+				}
+				span{
+					display: block;
+					font-size: small;
+					padding-top: 7px;
+					@media (max-width: 640px) {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+

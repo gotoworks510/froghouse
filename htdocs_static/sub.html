@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<title>レスポンシブナビゲーションのテスト</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/ie8.css">
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/functions.js"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=175138172625307&version=v2.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="footerImg">
+<div id="wrap" class="container">
+<div class="container row" id="header">
+	<h1><a href=""><img src="img/logo.svg" alt="バンクーバーな僕ら"></a></h1>
+</div>
+<div class="container row" id="navigation">
+	<nav>
+		<ul>
+			<li><a href="" class="gn1 iconfont"><span>ホーム</span></a></li>
+			<li><a href="" class="gn2 iconfont"><span>カテゴリ別</span></a></li>
+			<li><a href="" class="gn3 iconfont"><span>僕ら特集</span></a></li>
+			<li><a href="" class="gn4 iconfont"><span>登場人物に聞く</span></a></li>
+			<li><a href="" class="gn5 iconfont"><span>相談／ご質問</span></a></li>
+		</ul>
+	</nav>
+</div>
+<!-- /#navigation -->
+
+<div id="comicArticles" class="container row">
+
+<section id="comicSection" class="span_16">
+
+	<article class="articleBox radiusBox">
+		<header>
+			<time datetime="2014-11-22">2014-10-10</time>
+			<h1><a href="">1今まで見たことあるなかで一番ガリ…</a></h1>
+			<div class="mate">
+				<p class="ca"><span>登場人物：</span><a href=""><img src="img/senna_r.png" alt=""></a></p>
+				<p class="cate"><span>カテゴリ：</span><a href="">WEB屋</a><a href="">生活</a><a href="">文化</a></p>
+			</div>
+		</header>
+		<div class="postbody">
+			<div class="subbody">
+				<div style="text-align:center;"><img src="img/comicSample.png" alt=""></div>
+				<p>テキストを入れる事も当然あるよな。テキストを入れる事も当然あるよな。テキストを入れる事も当然あるよな。テキストを入れる事も当然あるよな。</p>
+				<h2>見出しを付けることだってあるだろう</h2>
+				<p>テキストを入れる事も当然あるよな。テキストを入れる事も当然あるよな。テキストを入れる事も当然あるよな。<a href="">テキストを入れる事も当然あるよな。</a></p>
+			</div>
+		</div>
+		<!-- /.postbody -->
+		<footer>
+			<div class="character">
+				<span><img src="img/senna_m.png" alt=""></span>
+				<div class="charaTxt">
+					<h3>Senna</h3>
+					<p>ブログ『バンクーバーのうぇぶ屋』の中の人。WEB制作者としてバンクーバーで7年活動し、現在はFrog Creator Productionという会社のCEO。</p>
+				</div>
+				<a href="" class="askBtn">Sennaに留学相談</a>
+			</div>
+			<!-- /.character -->
+			<div class="sns radiusBox">
+				<div class="facebookbtn"><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
+				<div><a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="vanboku">Tweet</a></div>
+				<div class="hatenabtn"><a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script></div>
+				<div><a data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></div>
+				<div><a href="http://line.me/R/msg/text/?LINE%E3%81%A7%E9%80%81%E3%82%8B%0D%0Ahttp%3A%2F%2Fline.me%2F"><img src="img/linebutton_36x60.png" height="62" alt="LINEで送る" /></a></div>
+			</div>
+			<!-- /.sns -->
+		</footer>
+		<div id="pageTopBox">
+		<div class="pageTop radiusBox">
+			<ul>
+				<li class="previous"><a href="">前の話</a></li>
+				<li class="next"><a href="">次の話</a></li>
+			</ul>
+			<a href="#header" class="pagetopLink iconfont">ページのトップへ</a>
+		</div>
+		</div>
+	</article>
+	<!-- /.articleBox radiusBox -->
+
+	<div class="row gutters footContents">
+
+	<aside id="sideContents" class="span_8 col">
+		<div class="about">
+			<h2 class="outttl">バンクーバーな僕らについて</h2>
+			<div class="box radiusBox">
+				<p>バンクーバーな僕らはカナダのBC州にあるバンクーバーで、クリエイターやイラストレーター、保育士やビジネスマン等、様々な業種で生きている僕らの日常を描いた4コマ漫画サイトです。
+				<img src="img/bokura_about.png" alt=""></p>
+				<span class="spanttl iconfont">私達は無料の留学相談を実施しています。</span>
+				<ul>
+					<li class="askSenna"><a href=""><img src="img/senna_ask.png" alt="">IT留学<span>WEB、グラフィック等</span></a></li>
+					<li class="askQ"><a href=""><img src="img/q_ask.png" alt="">語学留学<span>英語力、TOEIC対策等</span></a></li>
+					<li class="askNao"><a href=""><img src="img/nao_ask.png" alt="">専門留学<span>ビジネス、保育士等</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- /.about -->
+	</aside>
+	<!-- /#sideContents -->
+
+	<aside id="endContents" class="span_8 col">
+		<div class="popular">
+			<h2 class="outttl">人気の記事</h2>
+			<div class="box radiusBox">
+					<ul>
+						<!-- Wordpress Popular Posts Plugin v2.3.7 [SC] [monthly] [views] [custom] -->
+						<!---->
+						<li><a href="http://webya.opdsgn.com/thinking/getoutofyourworld/" title="高卒でバカなのに最高に楽しい僕の生き方と守りぬいてきたこと" target="_self"><img src="http://webya.opdsgn.com/wp-content/uploads/2013/01/2013-01-01-08.56.00-60x60.jpg" alt="" border="0" width="60" height="60" class="wpp-thumbnail wpp_cached_thumb wpp_featured"></a> <a href="http://webya.opdsgn.com/thinking/getoutofyourworld/" title="高卒でバカなのに最高に楽しい僕の生き方と守りぬいてきたこと">高卒でバカなのに最高に楽しい僕の生き方と守りぬいてきたこと</a> </li>
+						<li><a href="http://webya.opdsgn.com/thinking/whatyouwannado/" title="自分のやりたい事を仕事にしてる僕らに見られる10個の特徴" target="_self"><img src="http://webya.opdsgn.com/wp-content/uploads/2014/01/SennaQ20140117-1-60x60.png" alt="" border="0" width="60" height="60" class="wpp-thumbnail wpp_cached_thumb wpp_featured"></a> <a href="http://webya.opdsgn.com/thinking/whatyouwannado/" title="自分のやりたい事を仕事にしてる僕らに見られる10個の特徴">自分のやりたい事を仕事にしてる僕らに見られる10個の特徴</a> </li>
+						<li><a href="http://webya.opdsgn.com/webdesign/fontsforwebdesigne/" title="今更聞けない？！WEBデザイナーなら最低限知っておきたい有名フォントの数々" target="_self"><img src="http://webya.opdsgn.com/wp-content/uploads/2011/09/0012-60x60.gif" alt="" border="0" width="60" height="60" class="wpp-thumbnail wpp_cached_thumb wpp_featured"></a> <a href="http://webya.opdsgn.com/webdesign/fontsforwebdesigne/" title="今更聞けない？！WEBデザイナーなら最低限知っておきたい有名フォントの数々">今更聞けない？！WEBデザイナーなら最低限知っておきたい有名フォントの数々</a> </li>
+						<li><a href="http://webya.opdsgn.com/interior/workstationgalleriesforwebya/" title="『こんなオフィスで仕事したい！！』夢踊らずにはいられないオフィス、ワークスペースを紹介してるサイト色々!！" target="_self"><img src="http://webya.opdsgn.com/wp-content/uploads/2012/06/wherewedesign-60x60.png" alt="" border="0" width="60" height="60" class="wpp-thumbnail wpp_cached_thumb wpp_featured"></a> <a href="http://webya.opdsgn.com/interior/workstationgalleriesforwebya/" title="『こんなオフィスで仕事したい！！』夢踊らずにはいられないオフィス、ワークスペースを紹介してるサイト色々!！">『こんなオフィスで仕事したい！！』夢踊らずにはいられないオフィス、ワークスペースを紹介してるサイト色々!！</a> </li>
+						<li><a href="http://webya.opdsgn.com/english/whatisenglishandtoeic/" title="『海外に住めば英語は出来るように成る』は本当か？５年間カナダに居座った僕が体感したTOEICとかの意味" target="_self"><img src="http://webya.opdsgn.com/wp-content/uploads/2013/02/0002-60x60.jpeg" alt="" border="0" width="60" height="60" class="wpp-thumbnail wpp_cached_thumb wpp_featured"></a> <a href="http://webya.opdsgn.com/english/whatisenglishandtoeic/" title="『海外に住めば英語は出来るように成る』は本当か？５年間カナダに居座った僕が体感したTOEICとかの意味">『海外に住めば英語は出来るように成る』は本当か？５年間カナダに居座った僕が体感したTOEICとかの意味</a> </li>
+						<li><a href="http://webya.opdsgn.com/inquiry/" title="お問い合わせ" target="_self"><img src="http://webya.opdsgn.com/wp-content/plugins/wordpress-popular-posts/no_thumb.jpg" alt="" border="0" width="60" height="60" class="wpp-thumbnail wpp_def_noPath wpp_featured"></a> <a href="http://webya.opdsgn.com/inquiry/" title="お問い合わせ">お問い合わせ</a> </li>
+						<li><a href="http://webya.opdsgn.com/tools/macapps201308ver/" title="iMac／Macbook Proに入れてるアプリの中で『これだけは絶対必要だろ！』って思えた物全部！" target="_self"><img src="http://webya.opdsgn.com/wp-content/uploads/2013/08/45bf7e54e80670cda2ea0cefac694fba-60x60.jpg" alt="" border="0" width="60" height="60" class="wpp-thumbnail wpp_cached_thumb wpp_featured"></a> <a href="http://webya.opdsgn.com/tools/macapps201308ver/" title="iMac／Macbook Proに入れてるアプリの中で『これだけは絶対必要だろ！』って思えた物全部！">iMac／Macbook Proに入れてるアプリの中で『これだけは絶対必要だろ！』って思えた物全部！</a> </li>
+						<!---->
+						<!-- End Wordpress Popular Posts Plugin v2.3.7 -->
+					</ul>
+			</div>
+		</div>
+		<!-- /.about -->
+	</aside>
+	<!-- /#endContents -->
+
+	</div>
+	<!-- /#asideGroup -->
+
+</section>
+<!-- /#comicIndex_r -->
+
+</div>
+<!-- /#comicIndex -->
+
+</div>
+<!-- /#wrap -->
+</div>
+<!-- /#footerImg -->
+<footer id="footer">
+	<small>© FROG CREATOR PRODUCTION INC All Rights Reserved.</small>
+</footer>
+<script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script type="text/javascript">
+window.___gcfg = {lang: 'ja'};
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+po.src = 'https://apis.google.com/js/plusone.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
+</body>
+</html>
